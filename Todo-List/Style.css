@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.col-sm-8,
+.col-sm-2 {
+  padding-right: 10px;
+  padding-left: 0px !important;
+}
+.align-center {
+  width: 50%;
+  text-align: center;
+}
+
+header {
+  min-height: 20vh;
+  margin-top: 5rem;
+}
+
+header .align-center {
+  color: #552f2f;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 100%;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: cornflowerblue;
+  padding: 3px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.form-input-button {
+  width: 100%;
+  border-width: 0px;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.form-input-button:hover {
+  color: black;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, #a1c7ff, #60a5ff);
+  transition: all 0.3s ease-in-out;
+}
+.form-input:focus {
+  outline: none;
+}
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.todocontainer {
+  margin-top: 3rem;
+}
+.todo {
+  width: 50%;
+  text-align: center;
+}
+.todo-list {
+  list-style-type: none;
+}
+.TodoDiv {
+  background-color: rgb(218, 216, 216);
+  margin: 0.4rem 10rem;
+  height: 7vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  border-radius: 0.5rem;
+}
+
+.deleteBtn,
+.completedBtn {
+  background-color: rgb(35, 98, 182);
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0rem 1rem;
+  border-radius: 0.5rem;
+}
+.deleteBtn:hover,
+.completedBtn:hover {
+  color: black;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
+}
+.completedBtn {
+  background-color: rgb(50, 121, 121);
+  margin-right: 0.3rem;
+}
+.todoLi {
+  margin-right: auto;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: rgb(165, 164, 164);
+  transition: all 0.3s ease-in-out;
+}
+.fall {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(8rem) rotatez(15deg);
+  opacity: 0.1;
+  background-color: rgb(165, 164, 164);
+}
+.copyright {
+  font-family: "Montserrat";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 1rem;
+}
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p > a {
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-top: 1vh;
+  font-size: 1rem;
+}
+p > a:hover {
+  text-decoration: none;
+  color: #6b98d1;
+}

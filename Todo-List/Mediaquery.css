@@ -1,0 +1,28 @@
+@media only screen and (max-width: 576px) {
+  .form-input-button {
+    margin-top: 10px;
+  }
+  select {
+    margin-top: 10px;
+  }
+  .col-sm-8,
+  .col-sm-2 {
+    padding-right: 10px;
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .form-input-button {
+    margin-top: 10px;
+  }
+  select {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .col-lg-8,
+  .col-lg-2 {
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+  }
+}
